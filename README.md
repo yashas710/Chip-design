@@ -17,7 +17,7 @@ Transient Analysis
 Description
 The circuit is implemented using a floating OTA architecture, where the OTA operates without a direct ground reference at its input. This improves flexibility and allows differential signal handling.
 The schematic includes:
-![Uploading 11dd1664de43be5d711f39e4028804a9_DC%20analysis.png…]()
+<img width="1600" height="900" alt="11dd1664de43be5d711f39e4028804a9_DC%20analysis" src="https://github.com/user-attachments/assets/98fa141c-1cb5-4561-9cf3-1e255bae5a4d" />
 Operational Transconductance Amplifier (OTA)
 Biasing resistors to set operating point
 NMOS transistor acting as a current-controlling element
@@ -27,7 +27,7 @@ The design is created in Cadence Virtuoso Schematic Editor, and all components a
 4. AC Analysis – Magnitude Response
 Description
 AC analysis is performed to evaluate the frequency response of the circuit. A small-signal AC voltage of 1 V is applied at the input, and the output response is observed across a wide frequency range.
-![Uploading a35fe6fecbb46a296fc4918b4c877158_AC%20analysis.png…]()
+<img width="1600" height="900" alt="a35fe6fecbb46a296fc4918b4c877158_AC%20analysis" src="https://github.com/user-attachments/assets/c2b11f79-0a0d-4cb1-b6bf-fed49690f734" />
 Observations:
 The input voltage (Vin) remains constant across all frequencies
 The output voltage (Vout) remains stable at low frequencies
