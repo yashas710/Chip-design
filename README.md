@@ -36,3 +36,45 @@ Parasitic capacitances
 Internal transistor poles
 Bandwidth limitations of the OTA
 This confirms the expected small-signal behavior of the circuit.
+5.Transient Analysis
+Description
+Transient analysis is carried out to study the time-domain behavior of the circuit when a sinusoidal input is applied.
+Observations:
+The input waveform is sinusoidal
+The output waveform follows the input with:
+Minimal distortion
+Very low ripple
+Output remains stable over time
+<img width="1600" height="900" alt="c271f0680e3bcd3b2996b59d77895d31_DC%20and%20Transient%20analysis" src="https://github.com/user-attachments/assets/e97c8e07-1a13-4a6c-acc9-37990a636d06" />
+This confirms the circuit’s ability to process time-varying signals correctly.
+6.DC  Analysis
+Description
+DC analysis is performed by varying the resistor Rb to study its impact on the output voltage.
+Observations:
+Output voltage decreases gradually as Rb increases
+Shows predictable and linear behavior
+Confirms correct biasing and sensitivity of the circuit
+This analysis is useful for:
+Bias optimization
+Component tolerance study
+Design robustness evaluation
+7.Frequency Response: Gain and Phase Analysis
+Description
+To further analyze stability and bandwidth, magnitude, phase, and gain in decibels are plotted.
+<img width="1600" height="900" alt="d9a6636437fdca34076e4348c35af59b_Magnitude%20and%20phase" src="https://github.com/user-attachments/assets/c0fbd34e-f4ac-4b48-ab4a-d10954714f9a" />
+Key observations:
+The magnitude response remains flat at low frequencies, indicating constant gain
+Gain starts to roll off after the cut-off frequency
+Phase decreases gradually with increasing frequency
+The dB plot confirms a low-pass frequency response
+This analysis helps identify:
+Gain-bandwidth product
+Stability margins
+Pole locations
+8.Conclusion
+The floating OTA circuit was successfully designed and analyzed using Cadence Virtuoso. AC, DC, and transient simulations confirm that the circuit exhibits stable operation, predictable frequency response, and reliable time-domain performance.
+Key outcomes:
+Stable low-frequency gain
+Controlled bandwidth and phase behavior
+Minimal transient ripple
+Robust DC operating point
