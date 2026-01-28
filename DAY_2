@@ -1,0 +1,11 @@
+## 1.Introduction
+This project focuses on the design and analysis of CMOS analog test circuits using Cadence Virtuoso Analog Design Environment (ADE-L). The primary objective is to study the DC operating point, transient response, AC behavior, and small-signal gain of PMOS–NMOS based circuits. These analyses are essential for validating proper biasing, stability, and amplification characteristics of analog blocks such as current mirrors, amplifiers, and bias reference circuits (used in BGR and analog front-ends).
+## Circuit Overview
+
+This circuit consists of:
+PMOS (PM1) connected to VDD acting as an active load
+NMOS (NM2) connected to GND acting as the input-driven device
+External DC bias (V4) applied to the PMOS gate
+AC + DC input (V3) applied to the NMOS gate
+Output taken at Vout3, the common drain node
+This configuration represents a basic CMOS common-source amplifier with externally biased PMOS load, commonly used in analog signal amplification and bias testing.
