@@ -106,6 +106,7 @@ Description
 Description
 - AC analysis is performed to evaluate the frequency response of the circuit. A small-signal AC voltage of 1 V is applied at the input, and the output response is observed across a wide frequency range.
 <img width="1600" height="900" alt="a35fe6fecbb46a296fc4918b4c877158_AC%20analysis" src="https://github.com/user-attachments/assets/c2b11f79-0a0d-4cb1-b6bf-fed49690f734" />
+
 Observations:
 - The input voltage (Vin) remains constant across all frequencies
 - The output voltage (Vout) remains stable at low frequencies
@@ -118,6 +119,7 @@ Observations:
 ## 5.Transient Analysis
 Description
 - Transient analysis is carried out to study the time-domain behavior of the circuit when a sinusoidal input is applied.
+
  Observations:
 - The input waveform is sinusoidal
 - The output waveform follows the input with:
@@ -130,7 +132,8 @@ This confirms the circuit’s ability to process time-varying signals correctly.
 ## 6.DC  Analysis
 Description
 - DC analysis is performed by varying the resistor Rb to study its impact on the output voltage.
-  Observations:
+
+   Observations:
 - Output voltage decreases gradually as Rb increases
 - Shows predictable and linear behavior
 - Confirms correct biasing and sensitivity of the circuit
@@ -155,7 +158,8 @@ Key observations:
 
 ## 8.Conclusion
 The floating OTA circuit was successfully designed and analyzed using Cadence Virtuoso. AC, DC, and transient simulations confirm that the circuit exhibits stable operation, predictable frequency response, and reliable time-domain performance.
-- Key outcomes:
+
+ Key outcomes:
 - Stable low-frequency gain
 - Controlled bandwidth and phase behavior
 - Minimal transient ripple
