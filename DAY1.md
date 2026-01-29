@@ -118,7 +118,7 @@ Observations:
 ## 5.Transient Analysis
 Description
 - Transient analysis is carried out to study the time-domain behavior of the circuit when a sinusoidal input is applied.
-- Observations:
+ Observations:
 - The input waveform is sinusoidal
 - The output waveform follows the input with:
 - Minimal distortion
@@ -130,7 +130,7 @@ This confirms the circuit’s ability to process time-varying signals correctly.
 ## 6.DC  Analysis
 Description
 - DC analysis is performed by varying the resistor Rb to study its impact on the output voltage.
-- Observations:
+  Observations:
 - Output voltage decreases gradually as Rb increases
 - Shows predictable and linear behavior
 - Confirms correct biasing and sensitivity of the circuit
@@ -160,3 +160,4 @@ The floating OTA circuit was successfully designed and analyzed using Cadence Vi
 - Controlled bandwidth and phase behavior
 - Minimal transient ripple
 - Robust DC operating point
+ 
