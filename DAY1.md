@@ -9,21 +9,33 @@ Design Specification
 Define system specifications and constraints
 Consider:
 Process variation
+
 Supply voltage variation
+
 Temperature variation (PVT)
+
 Develop test benches for verification
+
 Domain-Specific Design
+
 Analog Domain
 
 Schematic capture
+
 Circuit-level simulation
+
 Optimization for gain, bandwidth, power, and noise
+
 Digital Domain
 
 RTL design entry
+
 Behavioral and functional simulation
+
 Logic synthesis
+
 Physical Design
+
 Analog layout using parameterized cells (PCells)
 Digital place and route
 Power and clock planning
