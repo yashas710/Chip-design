@@ -45,12 +45,12 @@ The mixed-signal IC design flow coordinates analog and digital design processes 
 ## Three Important Blocks in Chip Design
 Even the most advanced digital or mixed-signal chip cannot work reliably on its own. Every IC depends on a few basic analog blocks that provide stable voltage, current, and timing. The three most important blocks are the PLL, Bandgap Reference (BGR), and Low Dropout Regulator (LDO).
 
-1️⃣ Phase-Locked Loop (PLL)
+## (1)Phase-Locked Loop (PLL)
 A Phase-Locked Loop (PLL) is used to generate clean and accurate clock signals inside a chip. It continuously compares its output clock with a reference clock and adjusts itself until both are synchronized.
 
 In simple words, a PLL makes sure that all parts of the chip run at the correct speed and at the right time.
 
-2️⃣ Bandgap Reference (BGR)
+## (2)Bandgap Reference (BGR)
 A Bandgap Reference (BGR) provides a stable reference voltage that does not change much with temperature, supply voltage, or manufacturing variations. For silicon chips, this reference is usually around 1.2 V.
 Simply put, the BGR acts like a voltage anchor for the entire chip.
 Why BGR matters:
@@ -62,7 +62,7 @@ Where it is used:
 - Voltage regulators
 - Biasing circuits in analog blocks
 
-3️⃣ Low Dropout Regulator (LDO)
+## (3️) Low Dropout Regulator (LDO)
 An LDO is an on-chip voltage regulator that provides a clean and steady supply voltage to different blocks of the IC. It helps protect sensitive analog circuits from noisy or unstable power sources.
 In simple terms, an LDO acts like a noise filter and stabilizer for power.
 Why LDO matters:
