@@ -14,6 +14,7 @@ A well-designed CMOS layout follows analog layout best practices such as symmetr
 The image shows the physical layout implementation of the Bandgap Reference (BGR) test amplifier designed using Cadence Virtuoso Layout Suite XL. The layout is carefully structured to ensure matching accuracy, symmetry, and low parasitic effects, which are critical for precision analog circuits like bandgap references.
 
 Key Observations:
+<img width="795" height="900" alt="image" src="https://github.com/user-attachments/assets/a3c242d5-31b0-438b-8546-eed2f4ca7926" />
 
 - The layout consists of multiple transistor arrays arranged in a common-centroid and interdigitated fashion.
 - MOS devices connected to BVSS (substrate / bulk connection) are uniformly distributed to maintain consistent body biasing and reduce mismatch.
@@ -21,6 +22,7 @@ Key Observations:
 - The poly, diffusion, and metal layers are clearly visible, indicating proper layer usage as per the process design kit (PDK).
 
 Guard ring–like structures and well taps are implicitly included to:
+<img width="837" height="900" alt="image" src="https://github.com/user-attachments/assets/097b6044-2fbe-4eed-966b-4628624f3894" />
 
 - Improve noise immunity
 - Prevent latch-up
