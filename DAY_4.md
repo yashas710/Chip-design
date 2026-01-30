@@ -7,7 +7,7 @@ Once the layout is completed, it undergoes Layout Versus Schematic (LVS) verific
 A well-designed CMOS layout follows analog layout best practices such as symmetry, common-centroid placement, proper matching, and guard rings. These techniques minimize process variations, mismatch, and noise coupling, ensuring that the fabricated circuit performs as intended across process, voltage, and temperature (PVT) variations.
 
 ## Description of Layout Design 
- <img width="702" height="1600" alt="image" src="https://github.com/user-attachments/assets/ff047861-872d-4d42-a896-51a748ef7c45" />
+<img width="702" height="574" alt="image" src="https://github.com/user-attachments/assets/c82cddba-0103-41c1-a387-a74e9a3eeddc" />
 
  ## Layout of BGR Test Amplifier
 
@@ -41,7 +41,7 @@ This layout follows analog layout best practices, such as:
 - This ensures that the post-layout performance closely matches the schematic-level simulations.
 
 ## 2. Description of Schematic Design 
-<img width="702" height="1600" alt="image" src="https://github.com/user-attachments/assets/ef3ced43-e489-430d-abd1-4eeec479b80c" />
+<img width="702" height="966" alt="image" src="https://github.com/user-attachments/assets/822532f6-db2d-4619-a0cd-9f01d6171ae9" />
 
  ## Schematic of BGR Test Amplifier
 
@@ -83,7 +83,6 @@ This amplifier is used within the bandgap reference loop to:
 - Stabilize the reference voltage (Vref)
 
 ## 3. Layout–Schematic Consistency (LVS Perspective)
-
 - The schematic is faithfully translated into layout using matched device arrays.
 - Transistor multiplicity in the schematic is implemented as parallel unit devices in the layout.
 
