@@ -1,5 +1,6 @@
 ## 1.Introduction
 This project focuses on the design and analysis of CMOS analog test circuits using Cadence Virtuoso Analog Design Environment (ADE-L). The primary objective is to study the DC operating point, transient response, AC behavior, and small-signal gain of PMOS–NMOS based circuits. These analyses are essential for validating proper biasing, stability, and amplification characteristics of analog blocks such as current mirrors, amplifiers, and bias reference circuits (used in BGR and analog front-ends).
+
 ## Circuit 2 Overview
 <img width="1366" height="768" alt="159b3642f68ca0cfe56a5ebf91f571b4_ckt2" src="https://github.com/user-attachments/assets/228b19f5-55c1-4ca6-9685-af581b3d7457" />
 This circuit consists of:
@@ -9,6 +10,7 @@ External DC bias (V4) applied to the PMOS gate
 AC + DC input (V3) applied to the NMOS gate
 Output taken at Vout3, the common drain node
 This configuration represents a basic CMOS common-source amplifier with externally biased PMOS load, commonly used in analog signal amplification and bias testing.
+
 ## 2. DC Analysis (Operating Point)
 Purpose:
 To verify proper biasing and ensure both MOSFETs operate in the saturation region.
@@ -48,8 +50,8 @@ Observations:
 - No oscillations or distortion observed
 
 Transient Conclusion:
-✔ Circuit behaves as a stable common-source amplifier
-✔ Suitable for small-signal analog processing
+- Circuit behaves as a stable common-source amplifier
+- Suitable for small-signal analog processing
 <img width="1366" height="768" alt="0abf04fae0db818b8040156eda26f79d_ckt123" src="https://github.com/user-attachments/assets/b3c1e2cf-4549-4864-bad4-effca3a044fd" />
 
 ## 5. AC Analysis
@@ -64,9 +66,9 @@ Observations:
 AC Conclusion:
 <img width="998" height="830" alt="dc5e4c12b75ff773a72616fee02b8c25_Screenshot%20from%202026-01-28%2011-21-17" src="https://github.com/user-attachments/assets/387b02f2-3cd9-4ead-8e39-7b0f92aa3416" />
 
-✔ Circuit provides effective low-frequency amplification
-✔ Bandwidth is limited by device capacitances
-✔ Dominant pole present at output node
+- Circuit provides effective low-frequency amplification
+- Bandwidth is limited by device capacitances
+- Dominant pole present at output node
 
 5. Gain Analysis
 <img width="998" height="833" alt="cc8e7498882e80635ef3eec907281414_parameter%20analysis" src="https://github.com/user-attachments/assets/517b0eab-a1b3-4e8d-867a-97dfda0e8859" />
@@ -82,8 +84,8 @@ PMOS gm ≈ 48.6 µS,
 Resulting gain is moderate to high,
 
 Gain Conclusion:
-✔ Higher gain compared to diode-connected load circuits
-✔ External biasing improves output resistance and gain
+- Higher gain compared to diode-connected load circuits
+- External biasing improves output resistance and gain
 
 ## 6. Power Consumption
 - Drain current ≈ 2.64 µA
@@ -131,9 +133,9 @@ Key DC Observations:
 - Op-amp remains within its linear operating range
 
 DC Conclusion:
-✔ Stable operating point achieved
-✔ No device in cutoff or saturation
-✔ Circuit is suitable for amplification
+- Stable operating point achieved
+- No device in cutoff or saturation
+- Circuit is suitable for amplification
 
 ## 3. Transient Analysis
 <img width="1600" height="900" alt="7422afd118696931c7d16898eabadee3_Screenshot%20from%202026-01-28%2015-26-14" src="https://github.com/user-attachments/assets/bca3ec29-6a6c-4aa4-afd8-d5bab1c709f2" />
@@ -151,8 +153,8 @@ Observations:
 - Fast settling time indicates good stability
 
 Transient Conclusion:
-✔ Amplifier is stable in time domain
-✔ Suitable for low-noise and precision applications
+- Amplifier is stable in time domain
+- Suitable for low-noise and precision applications
 
 ## 4. AC Analysis
 <img width="1600" height="900" alt="420e5036a34d51de898fa0f023f29aaf_Screenshot%20from%202026-01-28%2015-24-05" src="https://github.com/user-attachments/assets/b71fee50-858c-4572-92ce-4e9d35bba685" />
@@ -167,9 +169,9 @@ Observations:
 - Phase margin remains within stable limits
 
 AC Conclusion:
-✔ Amplifier exhibits expected low-frequency gain
-✔ Bandwidth limited by internal op-amp compensation
-✔ Stable frequency response
+- Amplifier exhibits expected low-frequency gain
+- Bandwidth limited by internal op-amp compensation
+- Stable frequency response
 
 ## 5. Gain Analysis
 - Small-Signal Gain:
@@ -181,8 +183,8 @@ Observations:
 - Output swing remains within supply limits
 
 Gain Conclusion:
-✔ Suitable gain for signal amplification
-✔ Bias network ensures stable operation
+- Suitable gain for signal amplification
+- Bias network ensures stable operation
 
 ## 6. Power Analysis
 - Bias currents are in nanoampere to microampere range
